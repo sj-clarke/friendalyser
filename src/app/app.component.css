@@ -1,0 +1,40 @@
+.main-container {
+  text-align: center;
+  display: block;
+}
+
+.url-search {
+  width: 45% !important;
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 20px;
+}
+
+.results-container {
+  max-width: 45%;
+  display: block;
+  margin: 0 auto;
+}
+
+.result {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 40px;
+  font-weight: bold;
+  margin: 0 auto 10px auto;
+}
+
+.result-emotion-icon {
+  width: 40px;
+  margin-right: 10px;
+}
+
+.loading-icons {
+  width: 45px;
+  margin-bottom: 15px;
+}
+
+img {
+  width: 100%;
+}

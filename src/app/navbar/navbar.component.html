@@ -1,0 +1,9 @@
+<sm-menu title="Friendalyser" class="inverted teal">
+
+  <sm-menu class="menu right secondary">
+    <a sm-item href="#/elements/menu"
+       (click)="userAuthService.facebookLogin()"
+       image="{{userAuthService.user ? userAuthService.user.photoUrl : ''}}">
+      {{userAuthService.user ? userAuthService.user.facebook.first_name + ' ' + userAuthService.user.facebook.last_name : 'Please log in'}}</a>
+  </sm-menu>
+</sm-menu>
